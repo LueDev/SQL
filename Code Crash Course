@@ -1426,8 +1426,3 @@ Remember, there are 3 active triggers now:
 
 */
 select * from trigger_test;
-
-delete from trigger_test
-order by message desc limit 1;
-
-delete from employee where emp_id = '111';
